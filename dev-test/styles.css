@@ -1,0 +1,81 @@
+.space-hero a:link,
+.space-hero a:visited,
+.space-hero a:active,
+.luna-hero a:link,
+.luna-hero a:visited,
+.luna-hero a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-unit-moon-exploration .hero-image {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-unit-moon-exploration .space {
+  background-image: url("./images/final-frontier_large.jpg");
+}
+
+.timeline-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  margin: 10px;
+  padding: 30px;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+.timeline-1 {
+  height: 530px;
+}
+
+.timeline-3 {
+  height: 800px;
+  margin-top: -295px;
+}
+
+@media (max-width: 992px) {
+  .timeline-3 {
+    margin-top: 10px;
+  }
+}
+
+.timeline-4 {
+  height: 600px;
+}
+
+.timeline-5 {
+  margin-top: -95px;
+  height: 780px;
+}
+
+@media (max-width: 992px) {
+  .timeline-5 {
+    margin-top: 10px;
+  }
+}
+
+.timeline-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .timeline-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,57 @@
+@import "_mixins";
+
+.space-hero,
+.luna-hero {
+  a:link,
+  a:visited,
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.hero-unit-moon-exploration .hero-image {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-unit-moon-exploration .space {
+  background-image: url("./images/final-frontier_large.jpg");
+}
+.timeline-item {
+  box-sizing: border-box;
+  justify-content: unset;
+  margin: 10px;
+  padding: 30px;
+  flex: 100%;
+}
+.timeline-1 {
+  height: 530px;
+}
+.timeline-3 {
+  height: 800px;
+  margin-top: -295px;
+  @include md {
+    margin-top: 10px;
+  }
+}
+.timeline-4 {
+  height: 600px;
+}
+.timeline-5 {
+  margin-top: -95px;
+  height: 780px;
+  @include md {
+    margin-top: 10px;
+  }
+}
+.timeline-container {
+  display: flex;
+  @include md {
+    flex-direction: column;
+  }
+}
