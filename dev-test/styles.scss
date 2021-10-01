@@ -55,3 +55,32 @@
     flex-direction: column;
   }
 }
+
+.flex-row {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  figure {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-grow: 3;
+    margin: 0px;
+  }
+  .image-moon-2 {
+    flex-grow: 6;
+  }
+  .image-moon-3 {
+    flex-grow: 6;
+  }
+  .image-moon-6 {
+    flex-grow: 6;
+  }
+  .image-moon-7 {
+    flex-grow: 6;
+  }
+  .image-moon-9 {
+    flex-grow: 6;
+  }
+}
